@@ -15,6 +15,7 @@ find_package(sensor_msgs REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/DriveCommand.msg"
   "msg/ArmRanges.msg"
+  "msg/ArmForces.msg"
   "msg/WheelTicks.msg"
   DEPENDENCIES sensor_msgs
 )
