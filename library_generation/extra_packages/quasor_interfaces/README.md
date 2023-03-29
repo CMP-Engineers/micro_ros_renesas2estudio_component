@@ -9,12 +9,12 @@ This package contains the custom ROS interfaces for the Quasor project.
 ## ArmRanges.msg
 Message which includes ranges from all four ultrasonic sensors on the arm combined into a single message.
 
-Range values are in mm.
+Range values are in metres.
 
 ## ArmForces.msg
 Message which includes brush forces from the two load cells on the arm combined into a single message.
 
-Force values are in milliNewton.
+Force values are in newtons.
 
 ## Contributing
 
